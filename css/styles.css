@@ -1,0 +1,80 @@
+body{
+  text-align: center;
+
+}
+/* club */
+#club{
+  text-align: center;
+  background-color:#66BFBF;
+  font-family: 'Shrikhand';
+  position: relative;
+  
+
+}
+.club-img{
+height: 350px;
+border-radius: 20%;
+transform: rotate(15deg);
+position: relative;
+z-index:1;
+padding-top:2rem;
+}
+.text{
+  font-size: 30px;
+}
+.pad{
+  padding-top: 2rem;
+}
+
+/* menu */
+#menu{
+  background-color: #A6D1E6;
+  text-align: center;
+  padding: 7% 15%;
+  font-family:'Montserrat';
+  position: relative;
+  z-index: 1
+}
+.fa-solid{
+  font-size: 40px;
+  color: #293462;
+}
+.fa-solid:hover{
+  color:#0078AA;
+}
+
+/* detail */
+#detail{
+  background: #81CACF;
+  text-align: center;
+  font-family: 'Montserrat';
+  line-height: 2rem;
+  padding: 4%;
+
+}
+.img-detail{
+  border-radius:100%;
+ width: 15%;
+ height: 15%;
+ padding: 10px;
+
+}
+#last{
+  background: #A6D1E6;
+  padding: 2%;
+}
+.space{
+  margin: 20px 10px;
+}
+.space:hover{
+  color: #293462;
+}
+.font-size{
+  font-size: 2rem;
+}
+@media (max-width:990px) {
+  .club-img{
+    position: static;
+    transform: rotate(0);
+    padding: 3%;
+}
